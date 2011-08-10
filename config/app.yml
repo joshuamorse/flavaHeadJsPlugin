@@ -1,0 +1,3 @@
+all:
+  flava_headjs:
+    script: '../flavaHeadJsPlugin/js/head.min.js'
