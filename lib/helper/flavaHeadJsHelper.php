@@ -31,7 +31,7 @@ function include_headjs_javascripts()
 {
   $html = javascript_include_tag(sfConfig::get('app_flava_headjs_script', '../flavaHeadJsPlugin/js/head.min.js'));
   $html .= '<script type="text/javascript">';
-  $html .= 'head.js(' . get_javascripts_list() . ')';
+  $html .= 'head.js(' . get_javascripts_list() . ');';
   $html .= '</script>';
 
   echo $html;
