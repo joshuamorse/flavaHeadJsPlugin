@@ -18,7 +18,7 @@ function get_javascripts_list()
     $list[] = "'/js/". $file . "'";
   }
 
-  return implode(',', $list);
+  return implode(', ', $list);
 }
 
 /**
