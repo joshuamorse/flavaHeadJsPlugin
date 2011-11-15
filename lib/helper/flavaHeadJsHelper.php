@@ -29,7 +29,7 @@ function get_javascripts_list()
  */
 function include_headjs_javascripts()
 {
-  $html = '<script>' . sfConfig::get('app_flava_headjs_script', '../flavaHeadJsPlugin/js/head.min.js') . '</script>';
+  $html = '<script src="' . sfConfig::get('app_flava_headjs_script', '../flavaHeadJsPlugin/js/head.min.js') . '"></script>';
   $html .= '<script>';
   $html .= 'head.js(' . get_javascripts_list() . ');';
   $html .= '</script>';
